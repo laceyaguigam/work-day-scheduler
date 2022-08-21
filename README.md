@@ -16,9 +16,7 @@ https://laceyaguigam.github.io/work-day-scheduler/
 
 
 ## Contribution
-
-* received helped from a tutor 
-* 
+ 
 *W3schools.com was also used to assist in the coding process
 
 Made with ❤️ by Lacey Aguigam
