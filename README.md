@@ -13,10 +13,10 @@ Create a scheduler that can be used to save and sort events based on past, prese
 
 https://laceyaguigam.github.io/work-day-scheduler/
 
+<img width="1728" alt="Screen Shot 2022-08-20 at 5 46 12 PM" src="https://user-images.githubusercontent.com/105749016/186797663-c609ef4a-f06f-4789-83c9-0db9def18a7f.png">
 
 
 ## Contribution
  
-*W3schools.com was also used to assist in the coding process
 
 Made with ❤️ by Lacey Aguigam
