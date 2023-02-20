@@ -13,12 +13,6 @@
 
 
 
-
-
-
-
-
-
 for(i=9; i<=17; i++){
     $('#'+i).prev().val(localStorage.getItem(i));
 
