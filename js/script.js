@@ -1,5 +1,5 @@
 
-// open planner, current day is hown at the top of the calendar 
+// open planner, current day is shown at the top of the calendar 
 
 // when you scroll down, time blocks for standard business hours is shown 
 
@@ -13,3 +13,24 @@
 
 
 
+for(i=9; i<=17; i++){
+    $('#'+i).prev().val(localStorage.getItem(i));
+
+    var currentHour = moment().format('HH')
+    if(i < parseInt(currentHour) ) {
+        $('#'+i).prev().attr("class", "col-10 past")
+    }else if (i == parseInt(currentHour)) {
+        $('#'+i).prev().attr("class", "col-10 present")
+    }else {
+        $('#'+i).prev().attr("class", "col-10 future")
+    }
+}
+
+function saveInformation() {
+    var valueToSave = $(this).prev().val();
+    var contextOfWhenItIsSavedTo = $(this).attr("id");
+
+    localStorage.setItem(contextOfWhenItIsSavedTo, valueToSave)
+}
+
+$(document).on("click", "button", saveInformation)
